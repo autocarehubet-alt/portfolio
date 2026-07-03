@@ -49,15 +49,17 @@ export default function CodeCard() {
       setCount(totalChars);
       return;
     }
+    // 2 chars per 48ms tick = same ~42 chars/s pace as 1-per-24ms, with
+    // half the re-renders (less main-thread work on low-end devices).
     const t = setInterval(() => {
       setCount((c) => {
         if (c >= totalChars) {
           clearInterval(t);
           return c;
         }
-        return c + 1;
+        return Math.min(c + 2, totalChars);
       });
-    }, 24);
+    }, 48);
     return () => clearInterval(t);
   }, []);
 

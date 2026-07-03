@@ -7,6 +7,13 @@ import { site } from "@/content/site";
 const CELL = 10;
 const W = MAP_COLS * CELL;
 const H = MAP_ROWS * CELL;
+const R = 2.6;
+
+// All land dots as one round-capped stroke path — a single DOM node instead
+// of 1,949 circles (smaller HTML, cheaper parse and hydration).
+const MAP_PATH = MAP_DOTS.map(
+  ([c, r]) => `M${c * CELL + CELL / 2} ${r * CELL + CELL / 2}h.01`
+).join("");
 
 export default function MapCard() {
   const ref = useRef<HTMLDivElement>(null);
@@ -76,16 +83,14 @@ export default function MapCard() {
         style={{ color: "var(--border-primary)" }}
         aria-hidden
       >
-        {MAP_DOTS.map(([c, r]) => (
-          <circle
-            key={`${c}-${r}`}
-            cx={c * CELL + CELL / 2}
-            cy={r * CELL + CELL / 2}
-            r={2.6}
-            fill="currentColor"
-            opacity={0.75}
-          />
-        ))}
+        <path
+          d={MAP_PATH}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={R * 2}
+          strokeLinecap="round"
+          opacity={0.75}
+        />
       </svg>
       {pos && (
         <button

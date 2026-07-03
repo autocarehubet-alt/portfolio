@@ -33,7 +33,7 @@ export default function StickersCard() {
               top: `${s.y}%`,
               transform: `translate(-50%,-50%) rotate(${s.rot}deg)`,
               ["--rot" as string]: `${s.rot}deg`,
-              animationDelay: `${i * 70}ms`,
+              animationDelay: `${i * 45}ms`,
             }}
             className={`animate-sticker absolute whitespace-nowrap rounded-full border px-3.5 py-1.5 text-sm font-medium ${hues[s.hue % hues.length]}`}
           >

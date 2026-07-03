@@ -38,9 +38,13 @@ export default function Clock() {
             <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />
           </svg>
         )}
-        <span className="whitespace-nowrap tabular-nums">{time ?? "–:––"}</span>
+        {/* min-widths reserve space so the pill doesn't shift when the
+            placeholder is replaced by the real time/date. */}
+        <span className="inline-block min-w-14 text-center whitespace-nowrap tabular-nums">
+          {time ?? "–:––"}
+        </span>
       </span>
-      <span className="whitespace-nowrap border-l border-border-secondary py-1 pl-2 pr-2.5 tabular-nums">
+      <span className="inline-block min-w-[4.5rem] border-l border-border-secondary py-1 pr-2.5 pl-2 text-center whitespace-nowrap tabular-nums">
         {date ?? "· · ·"}
       </span>
     </div>
