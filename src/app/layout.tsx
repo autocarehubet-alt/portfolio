@@ -42,9 +42,24 @@ export const metadata: Metadata = {
     template: `%s — ${site.name}`,
   },
   description: site.description,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     siteName: site.name,
     type: "website",
+    url: "/",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: `${site.name} — ${site.tagline}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
