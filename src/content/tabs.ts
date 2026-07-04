@@ -12,6 +12,11 @@ export const tabs: TabCategory[] = [
         right: "2026 — Live",
       },
       {
+        title: "TrueCare Dental & Implant Center",
+        sub: "Client work — production website for an Addis Ababa implant clinic",
+        right: "2025 — Live",
+      },
+      {
         title: "OptiCare",
         sub: "Patient retention & practice system for eye clinics",
         right: "2026 — Live",
@@ -30,6 +35,11 @@ export const tabs: TabCategory[] = [
         title: "Tayoo",
         sub: "Public-transport companion for Addis Ababa",
         right: "2026 — Beta",
+      },
+      {
+        title: "Aminra AutoLink",
+        sub: "Telegram-native spare-parts trust machine for Ethiopia's trucks",
+        right: "2026 — In build",
       },
     ],
   },
@@ -71,6 +81,16 @@ export const tabs: TabCategory[] = [
         sub: "101 terminals · 100 bus routes · 2 LRT lines",
         right: "2026",
       },
+      {
+        title: "TrueCare reaches Google's first page",
+        sub: "24K impressions · 550 clicks · avg. position 7.2 in six months",
+        right: "2026",
+      },
+      {
+        title: "AutoLink clears two engineering gates",
+        sub: "Requirements + foundation signed off · eval harness and safety infra green in CI",
+        right: "2026",
+      },
     ],
   },
   {
@@ -84,6 +104,8 @@ export const tabs: TabCategory[] = [
       { title: "Terminals mapped (Tayoo)", right: "101" },
       { title: "Custom SVG icons", right: "46" },
       { title: "Home-page CLS (flagship)", right: "0.000" },
+      { title: "Search impressions (TrueCare, 6 mo)", right: "24K" },
+      { title: "Unserved part-needs yearly (AutoLink)", right: "~1.8M" },
     ],
   },
   {
@@ -102,6 +124,11 @@ export const tabs: TabCategory[] = [
       {
         title: "Tayoo cloud cutover",
         sub: "Transit-graph sync · PostGIS queries",
+        right: "Next",
+      },
+      {
+        title: "AutoLink concierge launch → controlled pilot",
+        sub: "One liquidity cell served by hand, then live in the Addis truck beachhead",
         right: "Next",
       },
       {

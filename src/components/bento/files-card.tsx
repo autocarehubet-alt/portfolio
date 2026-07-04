@@ -129,6 +129,26 @@ export default function FilesCard() {
               )}
             </div>
           ))}
+          {openProduct.images && (
+            <div className="mt-6 space-y-5">
+              {openProduct.images.map((img) => (
+                <figure key={img.src}>
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    width={img.width}
+                    height={img.height}
+                    className="w-full rounded-lg border border-border-secondary"
+                  />
+                  {img.caption && (
+                    <figcaption className="mt-1.5 text-xs text-text-tertiary">
+                      {img.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              ))}
+            </div>
+          )}
           <p className="mt-6 text-sm font-semibold text-text-primary">Highlights</p>
           <ul className="mt-2 space-y-1.5">
             {openProduct.highlights.map((h) => (

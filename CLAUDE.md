@@ -67,7 +67,7 @@ Shared types: [src/lib/types.ts](src/lib/types.ts). Path alias `@/*` → `src/*`
 
 ## Content status
 
-Real content throughout (three clinic platforms, Bloom Co, Tayoo — rephrased from the owner's portfolio documents into click-revealed surfaces). Remaining owner TODOs in `src/content/site.ts`: production domain (`url`), real `portfolioPasscode`, optional email, optional profile PDF. Some product dates were inferred from the July 2026 document.
+Real content throughout (three clinic platforms, Bloom Co, Tayoo — rephrased from the owner's portfolio documents into click-revealed surfaces), plus client work: **TrueCare Dental & Implant Center** (truecaredentalclinic.com) with real Search Console screenshots in `public/images/products/dentalcare/`. Remaining owner TODOs in `src/content/site.ts`: production domain (`url`), real `portfolioPasscode`, optional email, optional profile PDF. Some product dates were inferred from the July 2026 document; TrueCare's "2025" start is inferred from the site's asset dates — confirm with the owner.
 
 ## Deployment
 

@@ -59,6 +59,64 @@ export const productFiles: ProductFile[] = [
     link: { label: "dental.aminracare.com", href: "https://dental.aminracare.com" },
   },
   {
+    slug: "truecare",
+    fileLabel: "TrueCare_2026",
+    title: "TrueCare Dental & Implant Center",
+    kicker: "Client work: a real Addis Ababa clinic, on Google's first page.",
+    purpose:
+      "The production website for TrueCare, an implant clinic in Bole — built to turn searches into booked chairs, and proven with Search Console numbers.",
+    status: "Client site · live · avg. Google position 7.2",
+    paragraphs: [
+      "TrueCare is a dental and implant center in Bole, Addis Ababa, led by prosthodontist and oral implantologist Dr. Ashenafi Hailay. Aminra built and runs its production website — the clinic's entire digital front door, from the first Google search to the booked appointment.",
+      "It's a complete clinical site: six treatment lines (restorative, cosmetic, general, orthodontics, preventive, pediatric), dentist profiles, gallery, FAQ, blog, and an online booking flow — with WhatsApp one tap away, because that's where Ethiopian patients actually are.",
+    ],
+    sections: [
+      {
+        heading: "Measured results, not promises",
+        body: [
+          "In six months the site earned 24,000 Google impressions and 550 clicks at an average position of 7.2 — first-page visibility for the searches that matter to an implant clinic. Ethiopia leads the traffic, followed by the diaspora in the United States, Canada, the United Kingdom, and Australia — exactly the audience that flies home for major dental work.",
+        ],
+      },
+      {
+        heading: "Why it matters to Aminra",
+        body: [
+          "TrueCare is the ground truth behind our clinic platform. We don't guess at how an Addis clinic wins patients — we operate the website where it happens, watch the search queries arrive, and build DentalCare against that daily reality.",
+        ],
+      },
+    ],
+    images: [
+      {
+        src: "/images/products/dentalcare/truecare-home.jpg",
+        alt: "TrueCare Dental & Implant Center homepage — Ethiopia's trusted dental implant center",
+        width: 1280,
+        height: 585,
+        caption: "truecaredentalclinic.com — the live homepage",
+      },
+      {
+        src: "/images/products/dentalcare/truecare-search-console.jpg",
+        alt: "Google Search Console performance graph for truecaredentalclinic.com",
+        width: 1280,
+        height: 515,
+        caption: "Six months in Search Console: 550 clicks, 24K impressions, average position 7.2",
+      },
+      {
+        src: "/images/products/dentalcare/truecare-countries.jpg",
+        alt: "Search traffic by country — Ethiopia first, then the diaspora",
+        width: 1280,
+        height: 520,
+        caption: "Ethiopia first, the diaspora next — US, Canada, UK, Australia",
+      },
+    ],
+    highlights: [
+      "Complete clinical site: 6 treatment lines, dentist profiles, gallery, FAQ, blog, online booking",
+      "24K impressions · 550 clicks · average position 7.2 in the first six months",
+      "Ethiopia-first traffic with diaspora reach — US, Canada, UK, Australia",
+      "WhatsApp-first patient contact · Facebook + TikTok presence",
+      "Search plumbing done right: meta descriptions, breadcrumbs, sitemap, Search Console",
+    ],
+    link: { label: "truecaredentalclinic.com", href: "https://truecaredentalclinic.com" },
+  },
+  {
     slug: "opticare",
     fileLabel: "OptiCare_2026",
     title: "OptiCare",
@@ -205,6 +263,59 @@ export const productFiles: ProductFile[] = [
       "Guided navigation with mid-journey trip recovery",
       "Amharic first-class throughout, with proper Ge'ez rendering",
       "Android + iOS + Web from one codebase · ~21,500 lines of TypeScript",
+    ],
+  },
+  {
+    slug: "autolink",
+    fileLabel: "AutoLink_2026",
+    title: "Aminra AutoLink",
+    kicker: "One message. Confirmed parts. Real trust.",
+    purpose:
+      "Remove the most expensive unknown in Ethiopia's vehicle economy — not knowing where a needed spare part actually is, right now.",
+    status: "In build · requirements + foundation gates passed · Addis pilot ahead",
+    paragraphs: [
+      "AutoLink is a Telegram-native, AI-powered spare-parts sourcing platform built for how the Addis market actually works. A garage, fleet operator, or car owner sends one message — typed, spoken, or photographed, in everyday garage Amharic — and gets back up to three options a real supplier has confirmed as available right now, each with a declared grade, a price band, a live photo, a trust score, and the time it was last confirmed.",
+      "It is deliberately a trust machine, not a marketplace: it never holds inventory, never processes the sale, never publishes prices, and never takes a commission. Its product is the one thing Ethiopia's parts market has never had — a verified, timestamped answer to “who actually has this part, right now?”",
+    ],
+    sections: [
+      {
+        heading: "The problem it solves",
+        body: [
+          "Finding a part in Addis Ababa today means calling ten or more shops and hearing “come and check,” or scrolling stale Telegram listings where a listed part is not a held part, authenticity is a gamble, and a reliable importer looks identical to a faker. The problem is structural: Ethiopia is landlocked, roughly 95% of its trade moves by road, and the 2024 import ban means the aging truck fleet must be maintained, not replaced — so every day a truck sits waiting for a part is lost national commerce.",
+          "The real competitor isn't another platform. It's habit — calling around Merkato.",
+        ],
+      },
+      {
+        heading: "How it answers",
+        bullets: [
+          "One message in — text, voice note in mixed Amharic and garage slang, or a photo of the part or its box",
+          "AI extracts a structured request but never invents: “kambiyo” → gearbox via a curated slang dictionary; low confidence means one tap-to-answer question or a human, never a silent guess",
+          "Three-layer matching — part-number cross-reference, catalog fitment, then live supplier confirmation; fitment truth always comes from a human holding the part",
+          "Confirmation with proof: the supplier replies “yes” plus a live photo of the actual part",
+          "The protected contact moment — a phone number is revealed only after a tracked confirmation, so every lead is measurable and every contact is earned",
+          "A next-day feedback loop feeds reliability and grade-accuracy scores — reputation compounds transaction by transaction, and every missed match maps exactly which supplier to recruit next",
+        ],
+      },
+      {
+        heading: "AI that never owns the truth",
+        body: [
+          "The AI is bounded, not autonomous: a classifier feeds a deterministic router into six narrow handlers, with a human-review fallback reachable from every path and conversation state living in a database — never in model memory. Every prompt, model, or dictionary change is regression-gated in CI against a golden dataset of real accent-tagged garage Amharic, guardrails fail closed, and the whole pipeline runs behind a provider-neutral gateway at roughly 0.2 birr per request.",
+        ],
+      },
+      {
+        heading: "Engineering discipline",
+        body: [
+          "AutoLink is built spec-first behind three hard gates, like a regulated-industry system. The requirements gate (a written constitution, PRD, 24+ EARS-format requirements, and a threat model covering AI-specific attacks) and the foundation gate (eight architecture decision records and a CI-green skeleton with trust invariants wired in as automated fitness functions) are both complete and signed off. Risky handlers ship dark behind default-off feature flags with shadow and canary rollout, tenant isolation is enforced at the database layer, and no sale-value column exists anywhere in the schema — what is never stored can never leak.",
+        ],
+      },
+    ],
+    highlights: [
+      "Voice-first Amharic front door — usable by non-literate mechanics and drivers",
+      "Confirmed over listed: staleness is shown honestly, never dressed up as fresh",
+      "Beachhead: heavy commercial trucks in Addis — ~1.8M unserved part-needs a year",
+      "Suppliers subscribe for confirmed demand; buyers ride free; no commission — ever",
+      "TypeScript strict monorepo · grammY · Next.js · Supabase RLS · provider-neutral AI gateway",
+      "Validated-demand-first: proven in the field with real dealers and fleets before the build began",
     ],
   },
 ];

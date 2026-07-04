@@ -5,7 +5,7 @@ export const site = {
   greeting: "Hello, we're Aminra \u{1F44B}",
   tagline: "Ethiopian-first software for healthcare, creators, and cities",
   description:
-    "Aminra Business Group builds Ethiopian-first software: patient-recovery platforms for clinics (DentalCare, OptiCare, DermaCare), Bloom Co — an escrow-protected creator marketplace for East Africa — and Tayoo, a smart public-transport companion for Addis Ababa.",
+    "Aminra Business Group builds Ethiopian-first software: clinic-growth platforms (DentalCare, OptiCare, DermaCare), the Bloom Co creator marketplace, the Tayoo transit companion, and the AutoLink spare-parts trust machine.",
   // TODO: production domain — sitemap, robots.txt, and metadata derive from it.
   url: "https://example.com",
   logo: "/images/aminracare-icon.png",

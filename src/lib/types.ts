@@ -32,6 +32,15 @@ export type ProductSection = {
   bullets?: string[];
 };
 
+export type ProductImage = {
+  /** Path under public/, e.g. "/images/products/dentalcare/truecare-home.jpg". */
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  caption?: string;
+};
+
 export type ProductFile = {
   slug: string;
   /** Desktop-style file name shown under the folder icon, e.g. "DentalCare_2026". */
@@ -45,6 +54,8 @@ export type ProductFile = {
   paragraphs: string[];
   /** Case-study sections rendered in the product modal after the intro. */
   sections?: ProductSection[];
+  /** Screenshot gallery rendered between sections and highlights. */
+  images?: ProductImage[];
   highlights: string[];
   link?: { label: string; href: string };
 };

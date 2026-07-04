@@ -6,6 +6,7 @@ export const about: QA[] = [
     q: "“So, what is Aminra?”",
     a: [
       "Aminra Business Group is a software company in Addis Ababa. We build products for how Ethiopia actually works — bilingual in English and Amharic, priced in birr, and native to the payment rails people already use.",
+      "And we hold everything to production discipline: hundreds of automated tests, WCAG accessibility, performance budgets, line-by-line audits before real money moves. Not because a client asked — because that's what engineering means to us.",
     ],
   },
   {
@@ -16,9 +17,16 @@ export const about: QA[] = [
     ],
   },
   {
+    q: "“How did it start?”",
+    a: [
+      "With a real clinic, not a business plan. We built — and still run — the production website for TrueCare, a dental and implant center in Bole, Addis Ababa. From inside its Search Console we watched how an Ethiopian clinic actually wins patients: page-one rankings, diaspora searches from three continents, WhatsApp messages arriving at 9pm.",
+      "That vantage point became a conviction: Ethiopian clinics don't lack demand, they lack follow-through. So we engineered the platform we wished every clinic had — DentalCare, then OptiCare and DermaCare — and carried the same Ethiopian-first thesis to creators with Bloom Co, to five million commuters with Tayoo, and now to the spare-parts market that keeps Ethiopia's trucks moving with AutoLink.",
+    ],
+  },
+  {
     q: "“What are you building right now?”",
     a: [
-      "Three product families. Clinic-growth platforms for dental, eye, and skin clinics — DentalCare, OptiCare, and DermaCare, each live with its own brand and clinical vocabulary. Bloom Co, an escrow-protected marketplace connecting brands with creators and videographers across East Africa. And Tayoo, a smart public-transport companion for Addis Ababa.",
+      "Four product families. Clinic-growth platforms for dental, eye, and skin clinics — DentalCare, OptiCare, and DermaCare, each live with its own brand and clinical vocabulary. Bloom Co, an escrow-protected marketplace connecting brands with creators and videographers across East Africa. Tayoo, a smart public-transport companion for Addis Ababa. And Aminra AutoLink — a Telegram-native trust machine that turns one voice note in garage Amharic into confirmed spare-part options for the trucks that carry Ethiopia's economy.",
     ],
   },
   {
