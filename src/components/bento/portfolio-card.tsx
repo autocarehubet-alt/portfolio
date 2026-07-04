@@ -68,18 +68,18 @@ export default function PortfolioCard() {
           </p>
         )}
         <p className="mt-2 text-sm leading-snug text-text-secondary">
-          Detailed case studies and clinic results are shared privately —
-          message us on WhatsApp for access.
+          The numbers we only share privately — client results, dashboards,
+          case studies. WhatsApp us for the passcode.
         </p>
         <button
           type="submit"
           className="mt-auto cursor-pointer self-start rounded-lg border border-border-primary px-4 py-2 text-sm font-semibold text-text-primary outline-none transition-colors hover:bg-bg-tertiary focus-visible:ring-2 focus-visible:ring-brand-primary"
         >
-          View portfolio
+          Unlock the portfolio
         </button>
       </form>
       {open && (
-        <Modal title="Company portfolio" onClose={() => setOpen(false)}>
+        <Modal title="Client portfolio" onClose={() => setOpen(false)}>
           <div className="space-y-8">
             {productFiles.map((p) => (
               <section key={p.slug}>
@@ -112,6 +112,19 @@ export default function PortfolioCard() {
                 )}
               </section>
             ))}
+          </div>
+          <div className="mt-8 border-t border-border-secondary pt-5">
+            <a
+              href={site.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-lg bg-brand-primary px-4 py-2 text-sm font-semibold text-white outline-none transition-colors hover:bg-brand-secondary focus-visible:ring-2 focus-visible:ring-brand-200"
+            >
+              Book a free demo on WhatsApp
+            </a>
+            <p className="mt-2 text-xs text-text-tertiary">
+              Every engagement starts free — keep your system, no contracts.
+            </p>
           </div>
         </Modal>
       )}

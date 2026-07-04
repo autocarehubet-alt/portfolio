@@ -41,6 +41,24 @@ function PdfIcon() {
 const tileClass =
   "flex cursor-pointer flex-col items-center justify-start gap-2 rounded-lg border border-transparent p-2 text-center outline-none transition-colors hover:border-border-secondary hover:bg-bg-secondary focus-visible:ring-2 focus-visible:ring-brand-primary";
 
+function ModalCta({ cta }: { cta: { label: string; href: string; note?: string } }) {
+  return (
+    <div className="mt-8 border-t border-border-secondary pt-5">
+      <a
+        href={cta.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center rounded-lg bg-brand-primary px-4 py-2 text-sm font-semibold text-white outline-none transition-colors hover:bg-brand-secondary focus-visible:ring-2 focus-visible:ring-brand-200"
+      >
+        {cta.label}
+      </a>
+      {cta.note && (
+        <p className="mt-2 text-xs text-text-tertiary">{cta.note}</p>
+      )}
+    </div>
+  );
+}
+
 export default function FilesCard() {
   const [openSlug, setOpenSlug] = useState<string | null>(null);
   const openProduct = productFiles.find((p) => p.slug === openSlug);
@@ -94,6 +112,13 @@ export default function FilesCard() {
               </div>
             ))}
           </div>
+          <ModalCta
+            cta={{
+              label: "Book a free demo on WhatsApp",
+              href: site.whatsapp,
+              note: "Thirty minutes, in English or Amharic. Worst case, you leave with a diagnosis.",
+            }}
+          />
         </Modal>
       )}
 
@@ -168,6 +193,7 @@ export default function FilesCard() {
               Visit {openProduct.link.label} ↗
             </a>
           )}
+          {openProduct.cta && <ModalCta cta={openProduct.cta} />}
         </Modal>
       )}
     </div>

@@ -8,37 +8,37 @@ export const tabs: TabCategory[] = [
     rows: [
       {
         title: "DentalCare",
-        sub: "Patient-recovery layer + full clinic system for dental clinics",
+        sub: "Recovers the patients dental clinics quietly lose — and proves it in birr",
         right: "2026 — Live",
       },
       {
         title: "TrueCare Dental & Implant Center",
-        sub: "Client work — production website for an Addis Ababa implant clinic",
+        sub: "Client work — the Addis implant clinic we put on Google's first page",
         right: "2025 — Live",
       },
       {
         title: "OptiCare",
-        sub: "Patient retention & practice system for eye clinics",
+        sub: "Brings eye patients back before their prescriptions expire elsewhere",
         right: "2026 — Live",
       },
       {
         title: "DermaCare",
-        sub: "Patient retention & practice system for skin clinics",
+        sub: "Keeps skin-treatment cycles — and their revenue — from quietly breaking",
         right: "2026 — Live",
       },
       {
         title: "Bloom Co",
-        sub: "Influencer–brand marketplace for East Africa",
+        sub: "Escrow-protected pay for creators, verified reach for brands",
         right: "Dec 2025 — Now",
       },
       {
         title: "Tayoo",
-        sub: "Public-transport companion for Addis Ababa",
+        sub: "Fair fares and live road answers for Addis commuters",
         right: "2026 — Beta",
       },
       {
         title: "Aminra AutoLink",
-        sub: "Telegram-native spare-parts trust machine for Ethiopia's trucks",
+        sub: "One voice note in, confirmed truck parts out — from verified suppliers",
         right: "2026 — In build",
       },
     ],
@@ -52,8 +52,8 @@ export const tabs: TabCategory[] = [
         right: "2026",
       },
       {
-        title: "Three vertical sites, one monorepo",
-        sub: "A new vertical is brand tokens + copy away",
+        title: "Three clinic platforms launched together",
+        sub: "Each with its own brand, ready for the next vertical",
         right: "2026",
       },
       {
@@ -63,18 +63,18 @@ export const tabs: TabCategory[] = [
       },
       {
         title: "Bloom Co core build — 42 screens",
-        sub: "~38,400 lines of TypeScript",
+        sub: "Both app experiences designed and shipped",
         right: "2025 — 2026",
       },
       {
-        title: "78-issue financial audit closed",
-        sub: "Escrow & double-entry ledger hardened",
+        title: "Payments layer hardened before launch",
+        sub: "Independently audited before any real money moves",
         right: "2026",
       },
       {
-        title: "Home-page CLS 0.413 → 0.000",
-        sub: "Web-Vitals budgets enforced in CI",
-        right: "2026",
+        title: "Flagship loads with zero layout shift",
+        sub: "Performance held to strict budgets",
+        right: "0.000",
       },
       {
         title: "Tayoo maps Addis Ababa's transit",
@@ -87,8 +87,8 @@ export const tabs: TabCategory[] = [
         right: "2026",
       },
       {
-        title: "AutoLink clears two engineering gates",
-        sub: "Requirements + foundation signed off · eval harness and safety infra green in CI",
+        title: "AutoLink validated in the field",
+        sub: "Demand proven with real fleets and dealers before the build began",
         right: "2026",
       },
     ],
@@ -96,14 +96,13 @@ export const tabs: TabCategory[] = [
   {
     label: "By the numbers",
     rows: [
-      { title: "Live production websites", right: "3" },
-      { title: "Languages per site", right: "2" },
-      { title: "Automated tests", right: "~660" },
-      { title: "App screens (Bloom Co)", right: "42" },
-      { title: "Database tables (Bloom Co)", right: "61" },
-      { title: "Terminals mapped (Tayoo)", right: "101" },
-      { title: "Custom SVG icons", right: "46" },
-      { title: "Home-page CLS (flagship)", right: "0.000" },
+      { title: "Websites live in production", right: "3" },
+      { title: "Languages per site, full parity", right: "2" },
+      { title: "Automated tests guarding every release", right: "~660" },
+      { title: "Screens designed & shipped (Bloom Co)", right: "42" },
+      { title: "Addis terminals mapped (Tayoo)", right: "101" },
+      { title: "Icons drawn in-house, zero stock", right: "46" },
+      { title: "Layout shift on the flagship (CLS)", right: "0.000" },
       { title: "Search impressions (TrueCare, 6 mo)", right: "24K" },
       { title: "Unserved part-needs yearly (AutoLink)", right: "~1.8M" },
     ],
@@ -113,27 +112,27 @@ export const tabs: TabCategory[] = [
     rows: [
       {
         title: "Connect + Complete for OptiCare & DermaCare",
-        sub: "Dual-product positioning from the flagship",
+        sub: "The keep-your-system option comes to eye and skin clinics",
         right: "Next",
       },
       {
-        title: "Bloom Co backend activation",
-        sub: "Escrow functions · Chapa + M-Pesa",
+        title: "Bloom Co escrow goes live",
+        sub: "Chapa + M-Pesa payouts — creators paid in their own mobile money",
         right: "Next",
       },
       {
-        title: "Tayoo cloud cutover",
-        sub: "Transit-graph sync · PostGIS queries",
+        title: "Tayoo goes city-wide",
+        sub: "Live fares and road reports for every rider",
         right: "Next",
       },
       {
-        title: "AutoLink concierge launch → controlled pilot",
-        sub: "One liquidity cell served by hand, then live in the Addis truck beachhead",
+        title: "AutoLink Addis pilot",
+        sub: "Fleets, garages, and dealers in the truck beachhead get first access",
         right: "Next",
       },
       {
         title: "aminracare.com umbrella site",
-        sub: "Apex domain reserved",
+        sub: "One front door for every clinic product",
         right: "Planned",
       },
       {

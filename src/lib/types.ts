@@ -58,4 +58,6 @@ export type ProductFile = {
   images?: ProductImage[];
   highlights: string[];
   link?: { label: string; href: string };
+  /** The offer: one clear next step rendered as a button at the modal end. */
+  cta?: { label: string; href: string; note?: string };
 };

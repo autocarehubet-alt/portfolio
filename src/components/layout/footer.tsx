@@ -58,7 +58,8 @@ export default function Footer() {
           </div>
           {/* Year is baked in at build time — intentional for a static site. */}
           <p className="mt-4 text-center text-xs text-text-quaternary">
-            © {new Date().getFullYear()} {site.name}. All rights reserved.
+            © {new Date().getFullYear()} {site.name} — built in Addis, for how
+            Ethiopia actually works.
           </p>
         </div>
       </div>

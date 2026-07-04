@@ -35,7 +35,7 @@ export const productFiles: ProductFile[] = [
       {
         heading: "Two ways to buy it",
         body: [
-          "Established clinics kept telling us the same thing: the automation is amazing, but they won't replace the records system they've used for years. So Connect runs alongside whatever a clinic already has — clinical modules deliberately hidden, zero migration, zero retraining. Complete is the full platform (scheduling, records, charting, treatment plans, billing) for clinics starting fresh, and a single flag upgrades Connect to Complete with nothing lost.",
+          "Established clinics kept telling us the same thing: the automation is amazing, but they won't replace the records system they've used for years. So Connect runs alongside whatever a clinic already has — zero migration, zero retraining. Complete is the full platform (scheduling, records, charting, treatment plans, billing) for clinics starting fresh, and upgrading from Connect later is seamless, with nothing lost.",
         ],
       },
       {
@@ -51,12 +51,17 @@ export const productFiles: ProductFile[] = [
     highlights: [
       "Bilingual AI front desk (Amharic + English) on WhatsApp + Telegram — voice notes understood",
       "Automated appointment, recall, follow-up, and installment reminders",
-      "Intent-based campaigns built from what patients actually asked — Telegram-first (free outbound)",
-      "Telebirr / CBE Birr / Amole screenshot verification, AI-OCR at the top tier",
+      "Campaigns built from what patients actually asked — never generic blasts",
+      "Telebirr / CBE Birr / Amole payment verification, automatic at the top tier",
       "Ge'ez calendar alongside Gregorian · ETB native · +251 handling",
       "Transparent owner-set ETB pricing, three additive plans per edition, demo-first",
     ],
     link: { label: "dental.aminracare.com", href: "https://dental.aminracare.com" },
+    cta: {
+      label: "Book a free demo on WhatsApp",
+      href: "https://wa.me/251725145079",
+      note: "Thirty minutes, on your own workflow. Keep your system — no migration, no contracts.",
+    },
   },
   {
     slug: "truecare",
@@ -112,9 +117,14 @@ export const productFiles: ProductFile[] = [
       "24K impressions · 550 clicks · average position 7.2 in the first six months",
       "Ethiopia-first traffic with diaspora reach — US, Canada, UK, Australia",
       "WhatsApp-first patient contact · Facebook + TikTok presence",
-      "Search plumbing done right: meta descriptions, breadcrumbs, sitemap, Search Console",
+      "Built to be found — and provably found, in Search Console",
     ],
     link: { label: "truecaredentalclinic.com", href: "https://truecaredentalclinic.com" },
+    cta: {
+      label: "Want results like these? WhatsApp us",
+      href: "https://wa.me/251725145079",
+      note: "Every engagement starts with a free demo — worst case, you leave with a diagnosis.",
+    },
   },
   {
     slug: "opticare",
@@ -144,6 +154,11 @@ export const productFiles: ProductFile[] = [
       "Four plans from ETB 13,000/mo · English + Amharic",
     ],
     link: { label: "eye.aminracare.com", href: "https://eye.aminracare.com" },
+    cta: {
+      label: "Book a free demo on WhatsApp",
+      href: "https://wa.me/251725145079",
+      note: "Thirty minutes, on your clinic's own recall calendar. No contracts.",
+    },
   },
   {
     slug: "dermacare",
@@ -172,6 +187,11 @@ export const productFiles: ProductFile[] = [
       "Chronic + aesthetic recall campaigns · English + Amharic",
     ],
     link: { label: "derm.aminracare.com", href: "https://derm.aminracare.com" },
+    cta: {
+      label: "Book a free demo on WhatsApp",
+      href: "https://wa.me/251725145079",
+      note: "Thirty minutes, on your treatment cycles. No contracts.",
+    },
   },
   {
     slug: "bloomco",
@@ -179,8 +199,8 @@ export const productFiles: ProductFile[] = [
     title: "Bloom Co",
     kicker: "The influencer–brand marketplace East Africa has been missing.",
     purpose:
-      "Give East Africa's creator economy the structure, trust, and payment rails it has never had — starting with Ethiopia, the largest unserved creator market on the continent.",
-    status: "All 42 screens built · backend integration staged",
+      "Creators get paid what they agreed, protected by escrow, in their own mobile money. Brands buy creator marketing with verified reach. Neither has ever had that in East Africa — Bloom Co is first.",
+    status: "All 42 screens built · launch integration underway",
     paragraphs: [
       "Bloom Co is a two-sided mobile marketplace connecting brands with creators and videographers across Ethiopia, Kenya, Tanzania, and Uganda — structured campaigns, verified profiles, transparent rate cards, and escrow-protected payment in the mobile money creators already use.",
     ],
@@ -211,21 +231,26 @@ export const productFiles: ProductFile[] = [
       },
     ],
     highlights: [
-      "Banking-grade payments core: double-entry ledger, idempotency keys, audited escrow (78 issues found and fixed before launch)",
+      "Banking-grade payments core, independently audited before launch",
       "Discovery by niche, city, language, audience size, and engagement",
       "Videographers as a native professional role — a first anywhere",
-      "61-table PostgreSQL schema · trigger-enforced review fairness",
-      "Native iOS + Android (Expo / React Native) · 42 screens · ~38,400 lines of TypeScript",
+      "Reviews revealed simultaneously — retaliation-proof by design",
+      "Native iOS + Android apps · 42 screens designed and shipped",
     ],
+    cta: {
+      label: "Partner with Bloom Co — WhatsApp us",
+      href: "https://wa.me/251725145079",
+      note: "Brands, creators, and early partners: the marketplace launches with those who join first.",
+    },
   },
   {
     slug: "tayoo",
     fileLabel: "Tayoo_2026",
     title: "Tayoo",
-    kicker: "ታዮ — the future of Addis transit.",
+    kicker: "ታዮ — every route, every fare, every jam. One app, 101 terminals.",
     purpose:
-      "Turn the private, perishable knowledge of Addis Ababa commuting into public, verified, self-refreshing infrastructure.",
-    status: "Feature-complete Beta (v1.0.0) · cloud backbone staged",
+      "Hand every commuter the local knowledge that used to take years to earn: where the minibus actually goes, what the ride actually costs, and what's happening on the road right now.",
+    status: "Feature-complete Beta (v1.0.0)",
     paragraphs: [
       "Tayoo unifies Addis Ababa's fragmented transit — light rail, Anbessa buses, minibus share-taxis — into one bilingual, offline-capable companion that answers the commuter's three daily questions: how do I get there, what's happening on the road right now, and how much should I be paying.",
     ],
@@ -239,11 +264,11 @@ export const productFiles: ProductFile[] = [
       {
         heading: "How it answers",
         bullets: [
-          "The first machine-readable model of the network — 101 terminals named in English and Amharic, routed as one graph, entirely on-device",
+          "The first complete map of the network — 101 terminals named in English and Amharic, with route planning that works even offline",
           "Three strategies per search: cheapest (live street prices), fastest (steers around reported jams), and a genuinely different alternative",
-          "Fare consensus — independent rider reports converge on the live street price, expire after 24 hours, and flag overcharging before boarding",
+          "Fare truth from riders — independent reports converge on the live street price and flag overcharging before boarding",
           "A live feed of nine incident types that feeds straight back into routing, not a bulletin board beside it",
-          "Trust from physics: confirming a report requires being within 800 meters, and riders on the affected segment outweigh bystanders 3×",
+          "Verified by presence — reports are confirmed by riders who are actually there, so remote spam simply doesn't work",
           "A budget-first wallet that projects month-end spend and makes savings-vs-driving and CO₂ saved visible",
           "A contribution economy — points, ranks, streaks, badges — so the data gets richer with every rider",
         ],
@@ -258,12 +283,17 @@ export const productFiles: ProductFile[] = [
       },
     ],
     highlights: [
-      "On-device Dijkstra routing — no server round-trip to plan a journey",
+      "Instant route planning, even with no connection",
       "Stations modeled as places: photos, amenities, safety ratings, operating hours",
       "Guided navigation with mid-journey trip recovery",
       "Amharic first-class throughout, with proper Ge'ez rendering",
-      "Android + iOS + Web from one codebase · ~21,500 lines of TypeScript",
+      "Android + iOS + Web",
     ],
+    cta: {
+      label: "Bring Tayoo to your fleet or city — talk to us",
+      href: "https://wa.me/251725145079",
+      note: "Feature-complete Beta. Partners and pilots welcome.",
+    },
   },
   {
     slug: "autolink",
@@ -272,7 +302,7 @@ export const productFiles: ProductFile[] = [
     kicker: "One message. Confirmed parts. Real trust.",
     purpose:
       "Remove the most expensive unknown in Ethiopia's vehicle economy — not knowing where a needed spare part actually is, right now.",
-    status: "In build · requirements + foundation gates passed · Addis pilot ahead",
+    status: "In build · Addis pilot ahead",
     paragraphs: [
       "AutoLink is a Telegram-native, AI-powered spare-parts sourcing platform built for how the Addis market actually works. A garage, fleet operator, or car owner sends one message — typed, spoken, or photographed, in everyday garage Amharic — and gets back up to three options a real supplier has confirmed as available right now, each with a declared grade, a price band, a live photo, a trust score, and the time it was last confirmed.",
       "It is deliberately a trust machine, not a marketplace: it never holds inventory, never processes the sale, never publishes prices, and never takes a commission. Its product is the one thing Ethiopia's parts market has never had — a verified, timestamped answer to “who actually has this part, right now?”",
@@ -289,23 +319,23 @@ export const productFiles: ProductFile[] = [
         heading: "How it answers",
         bullets: [
           "One message in — text, voice note in mixed Amharic and garage slang, or a photo of the part or its box",
-          "AI extracts a structured request but never invents: “kambiyo” → gearbox via a curated slang dictionary; low confidence means one tap-to-answer question or a human, never a silent guess",
-          "Three-layer matching — part-number cross-reference, catalog fitment, then live supplier confirmation; fitment truth always comes from a human holding the part",
+          "AI that understands how Addis garages actually speak — “kambiyo” means gearbox here — and asks one quick question when unsure, instead of guessing",
+          "Every option is confirmed live — availability truth always comes from a real supplier holding the part, never from software",
           "Confirmation with proof: the supplier replies “yes” plus a live photo of the actual part",
-          "The protected contact moment — a phone number is revealed only after a tracked confirmation, so every lead is measurable and every contact is earned",
-          "A next-day feedback loop feeds reliability and grade-accuracy scores — reputation compounds transaction by transaction, and every missed match maps exactly which supplier to recruit next",
+          "The protected contact moment — a phone number is revealed only after a confirmed request, so every contact is earned",
+          "A next-day feedback loop feeds every supplier's reliability score — reputation compounds transaction by transaction",
         ],
       },
       {
         heading: "AI that never owns the truth",
         body: [
-          "The AI is bounded, not autonomous: a classifier feeds a deterministic router into six narrow handlers, with a human-review fallback reachable from every path and conversation state living in a database — never in model memory. Every prompt, model, or dictionary change is regression-gated in CI against a golden dataset of real accent-tagged garage Amharic, guardrails fail closed, and the whole pipeline runs behind a provider-neutral gateway at roughly 0.2 birr per request.",
+          "The AI's only job is to understand you. It never decides what's in stock — a real supplier does — and whenever it isn't certain, it asks a question or brings in a person rather than guessing. That rule is absolute.",
         ],
       },
       {
-        heading: "Engineering discipline",
+        heading: "Private by design",
         body: [
-          "AutoLink is built spec-first behind three hard gates, like a regulated-industry system. The requirements gate (a written constitution, PRD, 24+ EARS-format requirements, and a threat model covering AI-specific attacks) and the foundation gate (eight architecture decision records and a CI-green skeleton with trust invariants wired in as automated fitness functions) are both complete and signed off. Risky handlers ship dark behind default-off feature flags with shadow and canary rollout, tenant isolation is enforced at the database layer, and no sale-value column exists anywhere in the schema — what is never stored can never leak.",
+          "Supplier phone numbers stay unreachable until a request is confirmed. Prices are never published — exact figures travel only as private quotes between buyer and supplier — and the platform never stores what anyone paid. What is never stored can never leak.",
         ],
       },
     ],
@@ -314,8 +344,13 @@ export const productFiles: ProductFile[] = [
       "Confirmed over listed: staleness is shown honestly, never dressed up as fresh",
       "Beachhead: heavy commercial trucks in Addis — ~1.8M unserved part-needs a year",
       "Suppliers subscribe for confirmed demand; buyers ride free; no commission — ever",
-      "TypeScript strict monorepo · grammY · Next.js · Supabase RLS · provider-neutral AI gateway",
+      "Runs on Telegram — no app to install, built for low-cost phones and patchy data",
       "Validated-demand-first: proven in the field with real dealers and fleets before the build began",
     ],
+    cta: {
+      label: "Join the Addis pilot — WhatsApp us",
+      href: "https://wa.me/251725145079",
+      note: "Fleets, garages, and parts dealers in the truck beachhead get first access.",
+    },
   },
 ];

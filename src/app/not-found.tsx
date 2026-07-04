@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { site } from "@/content/site";
 
 export default function NotFound() {
   return (
@@ -8,7 +9,7 @@ export default function NotFound() {
         Page not found
       </h1>
       <p className="mt-3 text-sm text-text-secondary">
-        The page you&apos;re looking for doesn&apos;t exist or has moved.
+        This page doesn&apos;t exist — but the revenue you&apos;re losing does.
       </p>
       <Link
         href="/"
@@ -16,6 +17,14 @@ export default function NotFound() {
       >
         Back to home
       </Link>
+      <a
+        href={site.whatsapp}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-3 text-sm font-medium text-brand-primary hover:text-brand-secondary"
+      >
+        or WhatsApp us for a free demo
+      </a>
     </section>
   );
 }
