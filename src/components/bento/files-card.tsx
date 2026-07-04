@@ -116,7 +116,7 @@ export default function FilesCard() {
             cta={{
               label: "Book a free demo on WhatsApp",
               href: site.whatsapp,
-              note: "Thirty minutes, in English or Amharic. Worst case, you leave with a diagnosis.",
+              note: "30 minutes, in English or Amharic. Worst case, you leave knowing where your money leaks.",
             }}
           />
         </Modal>
@@ -174,7 +174,7 @@ export default function FilesCard() {
               ))}
             </div>
           )}
-          <p className="mt-6 text-sm font-semibold text-text-primary">Highlights</p>
+          <p className="mt-6 text-sm font-semibold text-text-primary">What you get</p>
           <ul className="mt-2 space-y-1.5">
             {openProduct.highlights.map((h) => (
               <li key={h} className="flex gap-2 text-sm text-text-secondary">

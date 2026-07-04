@@ -12,7 +12,7 @@ const pl = (t: string): CodeToken => ({ t, c: "pl" });
 export const codeLines: CodeLine[] = [
   [kw("import"), pl(" "), id("vision"), pl(", { "), id("grit"), pl(" } "), kw("from"), pl(" 'addis-ababa'")],
   [],
-  [cm("// The belief everything rests on")],
+  [cm("// What we believe")],
   [kw("const"), pl(" "), id("belief"), pl(" = \"demand isn't")],
   [pl("  the problem — follow-through is\"")],
   [],
@@ -26,6 +26,6 @@ export const codeLines: CodeLine[] = [
   [pl("  "), id("weaving"), pl(": ['Amharic', 'English', 'birr'],")],
   [pl("}, { "), id("followThrough"), pl(": "), kw("true"), pl(" })")],
   [],
-  [cm("// Every engagement starts free")],
+  [cm("// Every project starts free")],
   [kw("export default"), pl(" "), id("aminra"), pl(".demo()")],
 ];

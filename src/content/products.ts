@@ -1,7 +1,9 @@
 import type { ProductFile } from "@/lib/types";
 
-// Product "files" — each opens a modal telling that product's story as a
-// mini case study (rephrased/condensed from the owner's portfolio documents).
+// Product "files" — each opens a modal telling that product's story.
+// Written for non-technical buyers at a sixth-grade reading level.
+// Shape per modal: hook (kicker) → story (problem) → how it helps →
+// what you get → one clear next step (cta). Facts are frozen.
 export const productFiles: ProductFile[] = [
   {
     slug: "dentalcare",
@@ -9,83 +11,83 @@ export const productFiles: ProductFile[] = [
     title: "DentalCare",
     kicker: "Keep your system. Recover the patients you're quietly losing.",
     purpose:
-      "Own the space between appointments — capture the leads a clinic misses, bring drifting patients back, and prove the recovered revenue in birr.",
-    status: "Flagship · complete and live in English + Amharic",
+      "Catch the patients your clinic is losing between visits. Win them back. See the money come back — in birr.",
+    status: "Live now · English + Amharic",
     paragraphs: [
-      "DentalCare is a WhatsApp + Telegram patient-recovery layer for Ethiopian dental clinics. A bilingual AI front desk answers around the clock, the system notices which patients are drifting away, warm owner-approved follow-ups bring them back, and every recovered booking is attributed into one owner ROI view — in birr.",
+      "DentalCare answers your patients on WhatsApp and Telegram, day and night, in Amharic and English. It notices who is drifting away, invites them back politely, and books them in. Then it shows you exactly how much money came back.",
     ],
     sections: [
       {
         heading: "The problem it solves",
         body: [
-          "Most clinics don't lose patients — they lose track of them. The revenue leak lives between appointments: a patient messages at 9pm and has booked elsewhere by morning; a no-show chair is never refilled; an implant price inquiry vanishes into chat history; six-month cleaning recalls quietly go overdue.",
-          "The economics make the leak expensive — winning a new patient costs five to seven times more than keeping one, and most lost patients never received a single follow-up. The tools clinics already own don't help: records systems remember what happened but never make the next thing happen, and marketing buys attention that drains out of the same holes.",
+          "Most clinics don't lose patients — they lose track of them. Someone asks the price of an implant at 9pm. No one replies. By morning, they book somewhere else. A missed visit is never rebooked. A six-month cleaning reminder never goes out.",
+          "Winning a brand-new patient costs five to seven times more than keeping one you already have. And most lost patients never got a single follow-up. The tools clinics already own don't fix this. Records systems remember the past. Ads bring clicks. Neither one follows through.",
         ],
       },
       {
-        heading: "The Recovery Proof Loop",
+        heading: "How it wins patients back",
         bullets: [
-          "Capture — the bilingual AI front desk answers 24/7 and notes what each patient asked about",
-          "Notice — the Lost-Revenue Radar tracks every patient's lifecycle and shows the leaks on one screen",
-          "Reach out — a small number of warm, owner-approved follow-ups, throttled and business-hours-only",
-          "Convert — a “yes, book me” reply becomes a booked slot against real availability in seconds",
-          "Prove — recovered bookings, rebooked no-shows, and converted treatments attributed in birr",
+          "Answers every message, day and night, in Amharic and English — even voice notes",
+          "Spots the leaks: missed visits, overdue check-ups, questions nobody answered",
+          "Sends a few warm, polite follow-ups — you approve them first",
+          "Books the visit the moment a patient says yes",
+          "Shows you every recovered visit and every birr it brought back",
         ],
       },
       {
         heading: "Two ways to buy it",
         body: [
-          "Established clinics kept telling us the same thing: the automation is amazing, but they won't replace the records system they've used for years. So Connect runs alongside whatever a clinic already has — zero migration, zero retraining. Complete is the full platform (scheduling, records, charting, treatment plans, billing) for clinics starting fresh, and upgrading from Connect later is seamless, with nothing lost.",
+          "Keep your current system? Choose Connect. It runs alongside what you already use — nothing to move, nothing to relearn. Starting fresh? Complete is the full clinic system: booking, records, billing, everything. And you can upgrade from Connect later without losing a thing.",
         ],
       },
       {
-        heading: "Restraint by design",
+        heading: "Our promises",
         bullets: [
-          "Owner approval gates every campaign; sends are capped, personalized, and business-hours-only",
-          "Messages never carry clinical detail or replay a patient's private history — outreach invites, it never surveils",
-          "The AI knows its limits: anything sensitive is handed to a human with the reason attached",
-          "No self-serve checkout — every plan starts with a free demo, because trust is the product in this market",
+          "You approve every campaign before it goes out",
+          "Messages never mention private health details",
+          "Anything sensitive goes to a real person, not the AI",
+          "No checkout button — every plan starts with a demo, because trust comes first here",
         ],
       },
     ],
     highlights: [
-      "Bilingual AI front desk (Amharic + English) on WhatsApp + Telegram — voice notes understood",
-      "Automated appointment, recall, follow-up, and installment reminders",
-      "Campaigns built from what patients actually asked — never generic blasts",
-      "Telebirr / CBE Birr / Amole payment verification, automatic at the top tier",
-      "Ge'ez calendar alongside Gregorian · ETB native · +251 handling",
-      "Transparent owner-set ETB pricing, three additive plans per edition, demo-first",
+      "A friendly AI that answers patients on WhatsApp + Telegram, day and night",
+      "Automatic reminders for visits, check-ups, and payments",
+      "Campaigns built from what patients actually asked about",
+      "Telebirr, CBE Birr, and Amole payment checking",
+      "Ethiopian calendar, birr prices, Ethiopian phone numbers — everywhere",
+      "Clear prices in birr · three plans · demo first",
     ],
     link: { label: "dental.aminracare.com", href: "https://dental.aminracare.com" },
     cta: {
       label: "Book a free demo on WhatsApp",
       href: "https://wa.me/251725145079",
-      note: "Thirty minutes, on your own workflow. Keep your system — no migration, no contracts.",
+      note: "30 minutes on WhatsApp. Keep your current system. No contracts.",
     },
   },
   {
     slug: "truecare",
     fileLabel: "TrueCare_2026",
     title: "TrueCare Dental & Implant Center",
-    kicker: "Client work: a real Addis Ababa clinic, on Google's first page.",
+    kicker: "Client work: a real Addis clinic, on Google's first page.",
     purpose:
-      "The production website for TrueCare, an implant clinic in Bole — built to turn searches into booked chairs, and proven with Search Console numbers.",
-    status: "Client site · live · avg. Google position 7.2",
+      "We built and run the website for TrueCare, an implant clinic in Bole. It turns Google searches into booked visits — and we can prove it.",
+    status: "Live · on Google's first page",
     paragraphs: [
-      "TrueCare is a dental and implant center in Bole, Addis Ababa, led by prosthodontist and oral implantologist Dr. Ashenafi Hailay. Aminra built and runs its production website — the clinic's entire digital front door, from the first Google search to the booked appointment.",
-      "It's a complete clinical site: six treatment lines (restorative, cosmetic, general, orthodontics, preventive, pediatric), dentist profiles, gallery, FAQ, blog, and an online booking flow — with WhatsApp one tap away, because that's where Ethiopian patients actually are.",
+      "TrueCare is a dental and implant clinic in Bole, Addis Ababa, led by Dr. Ashenafi Hailay. We built its website and we run it every day — from the first Google search to the booked appointment.",
+      "The site covers everything a patient needs: six treatment areas, the doctors, photos, common questions, a blog, and online booking. WhatsApp is one tap away, because that's where Ethiopian patients actually are.",
     ],
     sections: [
       {
-        heading: "Measured results, not promises",
+        heading: "Real results, not promises",
         body: [
-          "In six months the site earned 24,000 Google impressions and 550 clicks at an average position of 7.2 — first-page visibility for the searches that matter to an implant clinic. Ethiopia leads the traffic, followed by the diaspora in the United States, Canada, the United Kingdom, and Australia — exactly the audience that flies home for major dental work.",
+          "In six months, Google showed the site 24,000 times. 550 people clicked through. Its average spot was 7.2 — the first page. Most visitors come from Ethiopia. The rest come from the diaspora in the US, Canada, the UK, and Australia — families who fly home for major dental work.",
         ],
       },
       {
-        heading: "Why it matters to Aminra",
+        heading: "Why it matters",
         body: [
-          "TrueCare is the ground truth behind our clinic platform. We don't guess at how an Addis clinic wins patients — we operate the website where it happens, watch the search queries arrive, and build DentalCare against that daily reality.",
+          "TrueCare keeps us honest. We don't guess how an Addis clinic wins patients — we run the website where it happens, every day. Everything we learn goes straight into our clinic products.",
         ],
       },
     ],
@@ -99,10 +101,10 @@ export const productFiles: ProductFile[] = [
       },
       {
         src: "/images/products/dentalcare/truecare-search-console.jpg",
-        alt: "Google Search Console performance graph for truecaredentalclinic.com",
+        alt: "Google search results graph for truecaredentalclinic.com",
         width: 1280,
         height: 515,
-        caption: "Six months in Search Console: 550 clicks, 24K impressions, average position 7.2",
+        caption: "Six months on Google: 550 visits, shown 24,000 times, average spot 7.2",
       },
       {
         src: "/images/products/dentalcare/truecare-countries.jpg",
@@ -113,17 +115,17 @@ export const productFiles: ProductFile[] = [
       },
     ],
     highlights: [
-      "Complete clinical site: 6 treatment lines, dentist profiles, gallery, FAQ, blog, online booking",
-      "24K impressions · 550 clicks · average position 7.2 in the first six months",
-      "Ethiopia-first traffic with diaspora reach — US, Canada, UK, Australia",
-      "WhatsApp-first patient contact · Facebook + TikTok presence",
-      "Built to be found — and provably found, in Search Console",
+      "A complete clinic website: treatments, doctors, gallery, questions, blog, booking",
+      "Shown 24,000 times on Google · 550 visits · average spot 7.2 — in six months",
+      "Visitors from Ethiopia first, then the US, Canada, UK, and Australia",
+      "WhatsApp one tap away · Facebook + TikTok connected",
+      "Built to be found — and provably found",
     ],
     link: { label: "truecaredentalclinic.com", href: "https://truecaredentalclinic.com" },
     cta: {
       label: "Want results like these? WhatsApp us",
       href: "https://wa.me/251725145079",
-      note: "Every engagement starts with a free demo — worst case, you leave with a diagnosis.",
+      note: "Every project starts with a free demo. You lose nothing.",
     },
   },
   {
@@ -132,32 +134,31 @@ export const productFiles: ProductFile[] = [
     title: "OptiCare",
     kicker: "Stop losing eye patients after the first exam.",
     purpose:
-      "Bring the patient-recovery system to eye care, where the calendar is the treatment plan.",
-    status: "Live · dual-product rollout from the flagship is next",
+      "Eye care runs on dates. OptiCare remembers every one of them — so your patients come back to you, not to the shop next door.",
+    status: "Live now",
     paragraphs: [
-      "OptiCare adapts the recovery platform to ophthalmology and optometry, with its own “Sky Precision” identity and clinical vocabulary — because a recall means something different in every specialty, even when the leak is the same.",
+      "OptiCare is our clinic system rebuilt for eye clinics, with its own look and its own words — because an eye clinic's calendar is nothing like a dentist's.",
     ],
     sections: [
       {
         heading: "The problem it solves",
         body: [
-          "Eye care runs on dates: annual exams, contact-lens renewal windows, glaucoma follow-ups, diabetic and hypertensive retinopathy screenings. When those recalls never go out, the prescription expires and the patient buys glasses somewhere else — published research puts churn after a single missed visit near 70%.",
-          "OptiCare owns that calendar. Recalls fire when they're due, exam history (refraction, IOP, photos) stays findable instead of buried in paper files, and the owner sees which lapsed patients actually came back.",
+          "Eye care lives on dates: yearly exams, contact lens renewals, glaucoma check-ups, diabetes eye screening. When the reminder never goes out, the prescription expires — and the patient buys glasses somewhere else. Research says about 70% of patients never come back after one missed visit.",
+          "OptiCare owns that calendar. Reminders go out on time. Exam history stays easy to find. And you can see exactly which patients came back.",
         ],
       },
     ],
     highlights: [
-      "Prescription-expiry and chronic-condition recall campaigns",
-      "Exam-history records: refraction, IOP, photos",
-      "Glasses-deposit payment verification via Telebirr",
-      "Lane-view owner dashboard · vertical-specific ROI assumptions",
-      "Four plans from ETB 13,000/mo · English + Amharic",
+      "Reminders that go out before prescriptions expire",
+      "Exam history at your fingertips — no digging through paper",
+      "Glasses deposits checked through Telebirr",
+      "Four plans from ETB 13,000/month · English + Amharic",
     ],
     link: { label: "eye.aminracare.com", href: "https://eye.aminracare.com" },
     cta: {
       label: "Book a free demo on WhatsApp",
       href: "https://wa.me/251725145079",
-      note: "Thirty minutes, on your clinic's own recall calendar. No contracts.",
+      note: "30 minutes, on your clinic's own calendar. No contracts.",
     },
   },
   {
@@ -166,31 +167,31 @@ export const productFiles: ProductFile[] = [
     title: "DermaCare",
     kicker: "Stop losing skin patients after the first visit.",
     purpose:
-      "Retention for a specialty built on treatment cycles, where one missed session breaks the series.",
-    status: "Live · dual-product rollout from the flagship is next",
+      "Skin treatments work in rounds. DermaCare keeps patients on schedule — so results stay good and revenue stays steady.",
+    status: "Live now",
     paragraphs: [
-      "DermaCare carries the recovery platform into dermatology and aesthetics with its own “Warm Blush” identity — tuned to a specialty where revenue lives in repeating cycles rather than one-off visits.",
+      "DermaCare is the same proven system, rebuilt for skin clinics — where missing one session can undo a whole treatment plan.",
     ],
     sections: [
       {
         heading: "The problem it solves",
         body: [
-          "Skin care is cyclical: Botox and filler results fade around week twelve, laser and peel series need every session to work, acne and psoriasis plans need check-ins between visits, and annual skin-cancer screenings slip silently. Chronic patients churn at roughly twice the rate after a single missed visit — and progress photos too often live on someone's phone instead of in a chart.",
-          "DermaCare times outreach to the treatment cycle, keeps photo timelines inside the patient record, and handles package installments — so a paused series becomes a rebooked one instead of a lost patient.",
+          "Skin care runs in cycles. Botox fades around week twelve. Laser and peel series need every session. Acne plans need check-ins. Patients on long treatments are twice as likely to drop off after one missed visit — and progress photos too often live on someone's phone.",
+          "DermaCare sends reminders timed to each treatment, keeps photos with the patient's record, and handles payment plans — so a paused treatment becomes a booked one.",
         ],
       },
     ],
     highlights: [
-      "Treatment-cycle recalls tuned to fade windows and series schedules",
-      "Photo-timeline patient records · room-view owner dashboard",
-      "Aesthetic package installment billing with Telebirr verification",
-      "Chronic + aesthetic recall campaigns · English + Amharic",
+      "Reminders timed to each treatment's schedule",
+      "Before-and-after photos saved with the record",
+      "Payment plans for treatment packages, checked through Telebirr",
+      "Same plans as OptiCare · English + Amharic",
     ],
     link: { label: "derm.aminracare.com", href: "https://derm.aminracare.com" },
     cta: {
       label: "Book a free demo on WhatsApp",
       href: "https://wa.me/251725145079",
-      note: "Thirty minutes, on your treatment cycles. No contracts.",
+      note: "30 minutes, on your treatment plans. No contracts.",
     },
   },
   {
@@ -199,43 +200,43 @@ export const productFiles: ProductFile[] = [
     title: "Bloom Co",
     kicker: "The influencer–brand marketplace East Africa has been missing.",
     purpose:
-      "Creators get paid what they agreed, protected by escrow, in their own mobile money. Brands buy creator marketing with verified reach. Neither has ever had that in East Africa — Bloom Co is first.",
-    status: "All 42 screens built · launch integration underway",
+      "Creators get paid what they agreed, safely, in their own mobile money. Brands get proof the followers are real. Nobody in East Africa has had that — Bloom Co is first.",
+    status: "All 42 screens built · launching soon",
     paragraphs: [
-      "Bloom Co is a two-sided mobile marketplace connecting brands with creators and videographers across Ethiopia, Kenya, Tanzania, and Uganda — structured campaigns, verified profiles, transparent rate cards, and escrow-protected payment in the mobile money creators already use.",
+      "Bloom Co is an app that connects businesses with creators and videographers across Ethiopia, Kenya, Tanzania, and Uganda. Clear campaigns. Verified profiles. Public price lists. And payment that waits safely in the middle until the work is approved.",
     ],
     sections: [
       {
         heading: "The problem it solves",
         body: [
-          "Ethiopian creators are locked out of the global creator economy. Platform monetization is unavailable or restricted, Stripe doesn't operate in the country, and PayPal is send-only — an estimated $30–50 million in creator income is forfeited every year for lack of a pipe to deliver it. The one income stream left, brand sponsorship, runs on DMs and hope: no standard pricing, no contracts, no payment protection, and delays of up to 30 days treated as normal.",
-          "Trust fails in both directions. Brands fear paying for audiences that don't exist — fake-follower fraud is rampant industry-wide — while creators fear delivering work and never being paid, and no reputation system exists to break the deadlock. Videographers have it worst: no platform anywhere treats them as a professional category. No influencer–brand marketplace operates in Ethiopia today. Bloom Co is first.",
+          "Ethiopian creators can't earn from the big platforms, and money from abroad has no easy way in. An estimated $30–50 million in creator income is lost every year. The only income left is brand deals — and those run on DMs and hope. No standard prices. No contracts. No protection. Waiting a month to get paid is normal.",
+          "Trust is broken on both sides. Brands fear fake followers. Creators fear working and never being paid. And nobody can tell a reliable partner from a faker. There is no marketplace like this in Ethiopia today. Bloom Co is first.",
         ],
       },
       {
-        heading: "How it answers",
+        heading: "How it works",
         bullets: [
-          "Escrow secures brand money before work begins; milestones release on approval; configurable auto-release protects creators from unresponsive brands",
-          "Transparent rate cards and packages, visible before any contact is made",
-          "Progressive verification — phone → social accounts → national ID — with business verification for brands",
-          "Bidirectional reviews revealed simultaneously, eliminating retaliation bias",
-          "Native Chapa (Telebirr, CBE Birr) + M-Pesa rails · five currencies · country-aware tax withholding for Ethiopia's 2025 digital-income rules",
-          "Telegram as a first-class deliverable platform and Amharic/Swahili/Oromo localization on the roadmap — differentiators no competitor offers",
+          "The brand's money goes in first and waits safely until the work is approved",
+          "Creators post clear price lists — no haggling in the dark",
+          "Everyone gets verified: phone, social accounts, then ID",
+          "Both sides review each other at the same time — so nobody can punish a bad review",
+          "Payouts through Telebirr, CBE Birr, and M-Pesa, in five currencies, with taxes handled",
+          "Telegram counts as real work here — and Amharic, Swahili & Oromo are on the way",
         ],
       },
       {
         heading: "Fair by design",
         body: [
-          "The 20% service fee is charged to the brand on top of the creator's rate — a creator who quotes 10,000 ETB receives 10,000 ETB. The platform never takes its cut from the creator's pocket, because the whole point is ending the era of creators being underpaid.",
+          "Our 20% fee is charged to the brand, on top of the creator's price. A creator who quotes 10,000 birr receives 10,000 birr. We never take our cut from the creator — the whole point is ending the era of creators being underpaid.",
         ],
       },
     ],
     highlights: [
-      "Banking-grade payments core, independently audited before launch",
-      "Discovery by niche, city, language, audience size, and engagement",
-      "Videographers as a native professional role — a first anywhere",
-      "Reviews revealed simultaneously — retaliation-proof by design",
-      "Native iOS + Android apps · 42 screens designed and shipped",
+      "Money held safely until work is approved — audited before launch",
+      "Find creators by niche, city, language, audience size, and engagement",
+      "Videographers welcome as professionals — a first anywhere",
+      "Reviews shown at the same time, so they stay honest",
+      "Real apps for iPhone and Android · 42 screens built",
     ],
     cta: {
       label: "Partner with Bloom Co — WhatsApp us",
@@ -249,50 +250,50 @@ export const productFiles: ProductFile[] = [
     title: "Tayoo",
     kicker: "ታዮ — every route, every fare, every jam. One app, 101 terminals.",
     purpose:
-      "Hand every commuter the local knowledge that used to take years to earn: where the minibus actually goes, what the ride actually costs, and what's happening on the road right now.",
-    status: "Feature-complete Beta (v1.0.0)",
+      "Tayoo gives every commuter the street smarts that take years to earn: where the minibus really goes, what the ride really costs, and what's happening ahead.",
+    status: "Working Beta",
     paragraphs: [
-      "Tayoo unifies Addis Ababa's fragmented transit — light rail, Anbessa buses, minibus share-taxis — into one bilingual, offline-capable companion that answers the commuter's three daily questions: how do I get there, what's happening on the road right now, and how much should I be paying.",
+      "Tayoo puts all of Addis Ababa's transport — train, buses, minibuses — into one app that works in Amharic and English, even without internet. It answers the three questions every commuter asks: how do I get there, what will it cost, and what's going on out there?",
     ],
     sections: [
       {
         heading: "The problem it solves",
         body: [
-          "A capital of five million moves on an undocumented network. The minibus corridors that carry most of the city exist only in commuters' heads; fares are negotiated at the curb and spike with rain and rush hour, so newcomers are routinely overcharged; and there is no live information layer — a breakdown at Megenagna is known instantly by the people standing there and by nobody about to head that way. Transport is also one of a household's largest expenses, paid in cash, in small increments, invisibly.",
+          "Five million people move through Addis with no map. Minibus routes live only in people's heads. Fares change with the rain and the rush hour, and newcomers pay too much. When something breaks down at Megenagna, only the people standing there know. And transport quietly eats one of the biggest parts of a family's budget — in cash, a few birr at a time.",
         ],
       },
       {
         heading: "How it answers",
         bullets: [
-          "The first complete map of the network — 101 terminals named in English and Amharic, with route planning that works even offline",
-          "Three strategies per search: cheapest (live street prices), fastest (steers around reported jams), and a genuinely different alternative",
-          "Fare truth from riders — independent reports converge on the live street price and flag overcharging before boarding",
-          "A live feed of nine incident types that feeds straight back into routing, not a bulletin board beside it",
-          "Verified by presence — reports are confirmed by riders who are actually there, so remote spam simply doesn't work",
-          "A budget-first wallet that projects month-end spend and makes savings-vs-driving and CO₂ saved visible",
-          "A contribution economy — points, ranks, streaks, badges — so the data gets richer with every rider",
+          "The first complete map of the network — 101 terminals, named in Amharic and English, working even offline",
+          "Three answers per search: the cheapest way, the fastest way, and a smart backup",
+          "Real fares from real riders — so you know the fair price before you board",
+          "A live feed of what's happening on the road, straight from other commuters",
+          "Reports checked by riders who are actually there — fakes don't work",
+          "A wallet that tracks your transport spending and shows what you save",
+          "Points, ranks, and badges — the app gets smarter with every rider",
         ],
       },
       {
         heading: "Founding values",
         bullets: [
-          "Community First (ማህበረሰብ ተኮር) — riders are the sensors, the validators, and the beneficiaries",
-          "Offline Intelligence (ከኢንተርኔት ውጪ የሚሰራ) — routing keeps working when mobile data doesn't",
-          "Verified Trust (የታመኑ መረጃዎች) — crowdsourced never means unverified",
+          "Community First (ማህበረሰብ ተኮር) — riders power it, riders benefit",
+          "Offline Intelligence (ከኢንተርኔት ውጪ የሚሰራ) — it works when the data doesn't",
+          "Verified Trust (የታመኑ መረጃዎች) — crowd-sourced never means unchecked",
         ],
       },
     ],
     highlights: [
-      "Instant route planning, even with no connection",
-      "Stations modeled as places: photos, amenities, safety ratings, operating hours",
-      "Guided navigation with mid-journey trip recovery",
-      "Amharic first-class throughout, with proper Ge'ez rendering",
+      "Plans your route instantly, even with no connection",
+      "Stations shown as real places: photos, safety ratings, opening hours",
+      "Step-by-step guidance that picks up where you left off",
+      "Amharic first, everywhere in the app",
       "Android + iOS + Web",
     ],
     cta: {
       label: "Bring Tayoo to your fleet or city — talk to us",
       href: "https://wa.me/251725145079",
-      note: "Feature-complete Beta. Partners and pilots welcome.",
+      note: "Working Beta. Partners and pilots welcome.",
     },
   },
   {
@@ -301,51 +302,51 @@ export const productFiles: ProductFile[] = [
     title: "Aminra AutoLink",
     kicker: "One message. Confirmed parts. Real trust.",
     purpose:
-      "Remove the most expensive unknown in Ethiopia's vehicle economy — not knowing where a needed spare part actually is, right now.",
-    status: "In build · Addis pilot ahead",
+      "Stop guessing who has your truck part. Send one message and get real answers — confirmed by sellers holding the part right now.",
+    status: "Being built · Addis pilot soon",
     paragraphs: [
-      "AutoLink is a Telegram-native, AI-powered spare-parts sourcing platform built for how the Addis market actually works. A garage, fleet operator, or car owner sends one message — typed, spoken, or photographed, in everyday garage Amharic — and gets back up to three options a real supplier has confirmed as available right now, each with a declared grade, a price band, a live photo, a trust score, and the time it was last confirmed.",
-      "It is deliberately a trust machine, not a marketplace: it never holds inventory, never processes the sale, never publishes prices, and never takes a commission. Its product is the one thing Ethiopia's parts market has never had — a verified, timestamped answer to “who actually has this part, right now?”",
+      "AutoLink works on Telegram — no app to install. A garage, fleet, or car owner sends one message: typed, spoken, or a photo of the part. Back come up to three options a real seller has just confirmed: the grade, a price range, a fresh photo, a trust score, and when it was last checked.",
+      "AutoLink is a trust machine, not a shop. We never hold the parts, never touch the sale, never publish prices, and never take a commission. We sell one thing Ethiopia's parts market has never had: a true answer to “who actually has this part, right now?”",
     ],
     sections: [
       {
         heading: "The problem it solves",
         body: [
-          "Finding a part in Addis Ababa today means calling ten or more shops and hearing “come and check,” or scrolling stale Telegram listings where a listed part is not a held part, authenticity is a gamble, and a reliable importer looks identical to a faker. The problem is structural: Ethiopia is landlocked, roughly 95% of its trade moves by road, and the 2024 import ban means the aging truck fleet must be maintained, not replaced — so every day a truck sits waiting for a part is lost national commerce.",
-          "The real competitor isn't another platform. It's habit — calling around Merkato.",
+          "Finding a part in Addis means calling ten shops and hearing “come and check.” Online listings go stale, fakes are everywhere, and an honest seller looks exactly like a bad one. It matters more than ever: most of Ethiopia's trade moves by truck, and since the 2024 import ban, old trucks must be repaired, not replaced. Every day a truck waits for a part, money is lost.",
+          "Our real competitor isn't another app. It's habit — calling around Merkato.",
         ],
       },
       {
         heading: "How it answers",
         bullets: [
-          "One message in — text, voice note in mixed Amharic and garage slang, or a photo of the part or its box",
-          "AI that understands how Addis garages actually speak — “kambiyo” means gearbox here — and asks one quick question when unsure, instead of guessing",
-          "Every option is confirmed live — availability truth always comes from a real supplier holding the part, never from software",
-          "Confirmation with proof: the supplier replies “yes” plus a live photo of the actual part",
-          "The protected contact moment — a phone number is revealed only after a confirmed request, so every contact is earned",
-          "A next-day feedback loop feeds every supplier's reliability score — reputation compounds transaction by transaction",
+          "One message in — text, a voice note in everyday garage Amharic, or a photo",
+          "The AI understands how garages really talk — “kambiyo” means gearbox here — and asks a quick question when unsure, instead of guessing",
+          "Every option is confirmed live by a real seller holding the part — never by software",
+          "Proof included: the seller sends a fresh photo of the actual part",
+          "Phone numbers stay private until you confirm — so every contact is earned",
+          "Next-day feedback builds every seller's trust score, deal after deal",
         ],
       },
       {
         heading: "AI that never owns the truth",
         body: [
-          "The AI's only job is to understand you. It never decides what's in stock — a real supplier does — and whenever it isn't certain, it asks a question or brings in a person rather than guessing. That rule is absolute.",
+          "The AI's only job is to understand you. It never decides what's in stock — a real seller does. When it's not sure, it asks or brings in a person. That rule is absolute.",
         ],
       },
       {
         heading: "Private by design",
         body: [
-          "Supplier phone numbers stay unreachable until a request is confirmed. Prices are never published — exact figures travel only as private quotes between buyer and supplier — and the platform never stores what anyone paid. What is never stored can never leak.",
+          "Seller phone numbers stay hidden until a request is confirmed. Prices are never published — exact figures travel only as private quotes. And we never store what anyone paid. What is never stored can never leak.",
         ],
       },
     ],
     highlights: [
-      "Voice-first Amharic front door — usable by non-literate mechanics and drivers",
-      "Confirmed over listed: staleness is shown honestly, never dressed up as fresh",
-      "Beachhead: heavy commercial trucks in Addis — ~1.8M unserved part-needs a year",
-      "Suppliers subscribe for confirmed demand; buyers ride free; no commission — ever",
-      "Runs on Telegram — no app to install, built for low-cost phones and patchy data",
-      "Validated-demand-first: proven in the field with real dealers and fleets before the build began",
+      "Voice-first Amharic — easier to talk than to type",
+      "Confirmed beats listed: stale info is shown honestly, never dressed up as fresh",
+      "Starting with heavy trucks in Addis — ~1.8M hard-to-find part-needs a year",
+      "Sellers pay for real leads. Buyers ride free. No commission — ever.",
+      "Runs on Telegram — no app to install, works on cheap phones and weak data",
+      "Demand proven in the field with real fleets and dealers before we built it",
     ],
     cta: {
       label: "Join the Addis pilot — WhatsApp us",

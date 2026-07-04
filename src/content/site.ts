@@ -5,7 +5,7 @@ export const site = {
   greeting: "Hello, we're Aminra \u{1F44B}",
   tagline: "Software built for how Ethiopia actually works",
   description:
-    "Software for how Ethiopia actually works — clinics recover the patients they quietly lose (DentalCare), creators get paid protected (Bloom Co), commuters stop overpaying (Tayoo), trucks find parts in minutes (AutoLink). Every product starts with a free demo.",
+    "Software built for how Ethiopia actually works. Clinics win back lost patients with DentalCare. Creators get paid safely with Bloom Co. Commuters ride smarter with Tayoo. Trucks find parts fast with AutoLink. Every product starts with a free demo.",
   // TODO: production domain — sitemap, robots.txt, and metadata derive from it.
   url: "https://example.com",
   logo: "/images/aminracare-icon.png",

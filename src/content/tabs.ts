@@ -2,33 +2,35 @@ import type { TabCategory } from "@/lib/types";
 
 // The tabbed timeline card. Categories become pill tabs; rows render as
 // dense entries (title + optional subtitle, right-aligned date/value).
+// Written for non-technical buyers: plain words, benefits first, proof
+// attached. Facts (numbers, dates, names) are frozen — never change them.
 export const tabs: TabCategory[] = [
   {
     label: "Products",
     rows: [
       {
         title: "DentalCare",
-        sub: "Recovers the patients dental clinics quietly lose — and proves it in birr",
+        sub: "Wins back the patients dental clinics quietly lose — and proves it in birr",
         right: "2026 — Live",
       },
       {
         title: "TrueCare Dental & Implant Center",
-        sub: "Client work — the Addis implant clinic we put on Google's first page",
+        sub: "Client work — the Addis clinic we put on Google's first page",
         right: "2025 — Live",
       },
       {
         title: "OptiCare",
-        sub: "Brings eye patients back before their prescriptions expire elsewhere",
+        sub: "Brings eye patients back before they buy glasses somewhere else",
         right: "2026 — Live",
       },
       {
         title: "DermaCare",
-        sub: "Keeps skin-treatment cycles — and their revenue — from quietly breaking",
+        sub: "Keeps skin patients coming back for every step of their treatment",
         right: "2026 — Live",
       },
       {
         title: "Bloom Co",
-        sub: "Escrow-protected pay for creators, verified reach for brands",
+        sub: "Creators get paid safely. Brands get real followers.",
         right: "Dec 2025 — Now",
       },
       {
@@ -38,57 +40,57 @@ export const tabs: TabCategory[] = [
       },
       {
         title: "Aminra AutoLink",
-        sub: "One voice note in, confirmed truck parts out — from verified suppliers",
+        sub: "Send one voice note. Get confirmed truck parts from trusted sellers.",
         right: "2026 — In build",
       },
     ],
   },
   {
-    label: "Milestones",
+    label: "Wins",
     rows: [
       {
-        title: "DentalCare flagship live in EN + AM",
-        sub: "39 static pages · ~660 automated tests",
+        title: "DentalCare goes live in two languages",
+        sub: "39 pages · ~660 automatic checks before every update",
         right: "2026",
       },
       {
         title: "Three clinic platforms launched together",
-        sub: "Each with its own brand, ready for the next vertical",
+        sub: "Each with its own brand, ready for the next one",
         right: "2026",
       },
       {
-        title: "660/660 translation keys at parity",
-        sub: "English ↔ Amharic, meaning-audited",
-        right: "2026",
+        title: "Every word in both languages",
+        sub: "English and Amharic, checked for meaning — not just translated",
+        right: "660/660",
       },
       {
         title: "Bloom Co core build — 42 screens",
-        sub: "Both app experiences designed and shipped",
+        sub: "Both app experiences designed and built",
         right: "2025 — 2026",
       },
       {
-        title: "Payments layer hardened before launch",
-        sub: "Independently audited before any real money moves",
+        title: "Money system checked before launch",
+        sub: "Audited end to end before any real money moves",
         right: "2026",
       },
       {
-        title: "Flagship loads with zero layout shift",
-        sub: "Performance held to strict budgets",
+        title: "The site never jumps while loading",
+        sub: "Held to strict speed rules",
         right: "0.000",
       },
       {
         title: "Tayoo maps Addis Ababa's transit",
-        sub: "101 terminals · 100 bus routes · 2 LRT lines",
+        sub: "101 terminals · 100 bus routes · 2 train lines",
         right: "2026",
       },
       {
         title: "TrueCare reaches Google's first page",
-        sub: "24K impressions · 550 clicks · avg. position 7.2 in six months",
+        sub: "Shown 24,000 times · 550 visits · average spot 7.2 — in six months",
         right: "2026",
       },
       {
-        title: "AutoLink validated in the field",
-        sub: "Demand proven with real fleets and dealers before the build began",
+        title: "AutoLink proven in the field",
+        sub: "Real fleets and dealers said yes before we built it",
         right: "2026",
       },
     ],
@@ -96,28 +98,28 @@ export const tabs: TabCategory[] = [
   {
     label: "By the numbers",
     rows: [
-      { title: "Websites live in production", right: "3" },
-      { title: "Languages per site, full parity", right: "2" },
-      { title: "Automated tests guarding every release", right: "~660" },
-      { title: "Screens designed & shipped (Bloom Co)", right: "42" },
+      { title: "Websites live right now", right: "3" },
+      { title: "Languages on every site", right: "2" },
+      { title: "Automatic checks before every update", right: "~660" },
+      { title: "App screens designed & built (Bloom Co)", right: "42" },
       { title: "Addis terminals mapped (Tayoo)", right: "101" },
-      { title: "Icons drawn in-house, zero stock", right: "46" },
-      { title: "Layout shift on the flagship (CLS)", right: "0.000" },
-      { title: "Search impressions (TrueCare, 6 mo)", right: "24K" },
-      { title: "Unserved part-needs yearly (AutoLink)", right: "~1.8M" },
+      { title: "Icons we drew ourselves", right: "46" },
+      { title: "Page jump while loading (flagship)", right: "0.000" },
+      { title: "Times Google showed TrueCare (6 months)", right: "24K" },
+      { title: "Truck parts needed but hard to find, yearly", right: "~1.8M" },
     ],
   },
   {
     label: "In the works",
     rows: [
       {
-        title: "Connect + Complete for OptiCare & DermaCare",
-        sub: "The keep-your-system option comes to eye and skin clinics",
+        title: "Keep-your-system option for eye and skin clinics",
+        sub: "What dental clinics love comes to OptiCare and DermaCare",
         right: "Next",
       },
       {
-        title: "Bloom Co escrow goes live",
-        sub: "Chapa + M-Pesa payouts — creators paid in their own mobile money",
+        title: "Bloom Co payouts go live",
+        sub: "Creators get paid straight to their mobile money",
         right: "Next",
       },
       {
@@ -127,57 +129,57 @@ export const tabs: TabCategory[] = [
       },
       {
         title: "AutoLink Addis pilot",
-        sub: "Fleets, garages, and dealers in the truck beachhead get first access",
+        sub: "Fleets, garages, and parts dealers get first access",
         right: "Next",
       },
       {
-        title: "aminracare.com umbrella site",
-        sub: "One front door for every clinic product",
+        title: "One front door for every clinic product",
+        sub: "aminracare.com",
         right: "Planned",
       },
       {
-        title: "Amharic, Swahili & Oromo for Bloom Co",
-        sub: "No competitor offers any of the three",
+        title: "Bloom Co in Amharic, Swahili & Oromo",
+        sub: "No competitor offers even one of the three",
         right: "Planned",
       },
     ],
   },
   {
-    label: "Proof points",
+    label: "Proof",
     rows: [
       {
-        title: "No-shows with automated reminders",
+        title: "Missed appointments, with automatic reminders",
         sub: "Industry average",
         right: "−60%",
       },
       {
-        title: "Rebooking with systematic follow-up",
+        title: "Repeat visits, with steady follow-up",
         sub: "Industry average",
         right: "+45%",
       },
       {
-        title: "Acquiring vs. keeping a patient",
+        title: "Cost of a new patient vs. keeping one",
         sub: "Bain & Company",
         right: "5–7×",
       },
       {
-        title: "Lost patients never followed up",
+        title: "Lost patients who never got a follow-up",
         sub: "Harvard Business Review",
         right: "68%",
       },
       {
-        title: "Revenue growth from +5% retention",
+        title: "Extra revenue from keeping 5% more patients",
         sub: "Bain / Dental Economics",
         right: "+25%",
       },
       {
-        title: "Ethiopian creator income forfeited yearly",
-        sub: "No payout rails reach Ethiopia",
+        title: "Creator income Ethiopia loses every year",
+        sub: "No way to get paid from abroad",
         right: "$30–50M",
       },
       {
         title: "Eye patients lost after one missed visit",
-        sub: "Peer-reviewed finding",
+        sub: "Published research",
         right: "~70%",
       },
     ],

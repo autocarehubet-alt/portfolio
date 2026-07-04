@@ -68,8 +68,8 @@ export default function PortfolioCard() {
           </p>
         )}
         <p className="mt-2 text-sm leading-snug text-text-secondary">
-          The numbers we only share privately — client results, dashboards,
-          case studies. WhatsApp us for the passcode.
+          The results we only share in private — real client numbers and
+          stories. WhatsApp us and we&apos;ll send you the passcode.
         </p>
         <button
           type="submit"
