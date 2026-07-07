@@ -38,8 +38,8 @@ const orgJsonLd = JSON.stringify({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} — ${site.tagline}`,
-    template: `%s — ${site.name}`,
+    default: `${site.name} · ${site.tagline}`,
+    template: `%s · ${site.name}`,
   },
   description: site.description,
   alternates: {
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: `${site.name} — ${site.tagline}`,
+        alt: `${site.name} · ${site.tagline}`,
       },
     ],
   },

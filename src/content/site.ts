@@ -2,7 +2,7 @@
 // these facts in components.
 export const site = {
   name: "Aminra Business Group PLC",
-  greeting: "Hello, we're Aminra \u{1F44B}",
+  greeting: "Aminra Business Group PLC",
   tagline: "Software built for how Ethiopia actually works",
   description:
     "Software built for how Ethiopia actually works. Clinics win back lost patients with DentalCare. Creators get paid safely with Bloom Co. Commuters ride smarter with Tayoo. Trucks find parts fast with AutoLink. Every product starts with a free demo.",
@@ -15,7 +15,7 @@ export const site = {
   location: {
     countryCode: "ET",
     label: "Based in Addis Ababa, Ethiopia",
-    note: "Home of the best coffee on earth — come say hello.",
+    note: "Home of the best coffee on earth. Come say hello.",
   },
   /** Gate for the portfolio card. Client-side and cosmetic — NOT security;
       anyone reading the page source can find it. TODO: owner sets the real

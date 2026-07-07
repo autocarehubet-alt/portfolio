@@ -10,38 +10,38 @@ export const tabs: TabCategory[] = [
     rows: [
       {
         title: "DentalCare",
-        sub: "Wins back the patients dental clinics quietly lose — and proves it in birr",
-        right: "2026 — Live",
+        sub: "Wins back the patients dental clinics quietly lose, and proves it in birr",
+        right: "2026 · Live",
       },
       {
         title: "TrueCare Dental & Implant Center",
-        sub: "Client work — the Addis clinic we put on Google's first page",
-        right: "2025 — Live",
+        sub: "Client work: the Addis clinic we put on Google's first page",
+        right: "2025 · Live",
       },
       {
         title: "OptiCare",
         sub: "Brings eye patients back before they buy glasses somewhere else",
-        right: "2026 — Live",
+        right: "2026 · Live",
       },
       {
         title: "DermaCare",
         sub: "Keeps skin patients coming back for every step of their treatment",
-        right: "2026 — Live",
+        right: "2026 · Live",
       },
       {
         title: "Bloom Co",
         sub: "Creators get paid safely. Brands get real followers.",
-        right: "Dec 2025 — Now",
+        right: "Dec 2025 · Now",
       },
       {
         title: "Tayoo",
         sub: "Fair fares and live road answers for Addis commuters",
-        right: "2026 — Beta",
+        right: "2026 · Beta",
       },
       {
         title: "Aminra AutoLink",
         sub: "Send one voice note. Get confirmed truck parts from trusted sellers.",
-        right: "2026 — In build",
+        right: "2026 · In build",
       },
     ],
   },
@@ -60,13 +60,13 @@ export const tabs: TabCategory[] = [
       },
       {
         title: "Every word in both languages",
-        sub: "English and Amharic, checked for meaning — not just translated",
+        sub: "English and Amharic, checked for meaning, not just translated",
         right: "660/660",
       },
       {
-        title: "Bloom Co core build — 42 screens",
+        title: "Bloom Co core build: 42 screens",
         sub: "Both app experiences designed and built",
-        right: "2025 — 2026",
+        right: "2025-2026",
       },
       {
         title: "Money system checked before launch",
@@ -85,7 +85,7 @@ export const tabs: TabCategory[] = [
       },
       {
         title: "TrueCare reaches Google's first page",
-        sub: "Shown 24,000 times · 550 visits · average spot 7.2 — in six months",
+        sub: "Shown 24,000 times · 550 visits · average spot 7.2, all in six months",
         right: "2026",
       },
       {
@@ -160,7 +160,7 @@ export const tabs: TabCategory[] = [
       {
         title: "Cost of a new patient vs. keeping one",
         sub: "Bain & Company",
-        right: "5–7×",
+        right: "5-7×",
       },
       {
         title: "Lost patients who never got a follow-up",
@@ -175,7 +175,7 @@ export const tabs: TabCategory[] = [
       {
         title: "Creator income Ethiopia loses every year",
         sub: "No way to get paid from abroad",
-        right: "$30–50M",
+        right: "$30-50M",
       },
       {
         title: "Eye patients lost after one missed visit",

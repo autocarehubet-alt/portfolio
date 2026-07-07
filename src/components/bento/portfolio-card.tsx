@@ -68,7 +68,7 @@ export default function PortfolioCard() {
           </p>
         )}
         <p className="mt-2 text-sm leading-snug text-text-secondary">
-          The results we only share in private — real client numbers and
+          The results we only share in private: real client numbers and
           stories. WhatsApp us and we&apos;ll send you the passcode.
         </p>
         <button
@@ -123,7 +123,7 @@ export default function PortfolioCard() {
               Book a free demo on WhatsApp
             </a>
             <p className="mt-2 text-xs text-text-tertiary">
-              Every engagement starts free — keep your system, no contracts.
+              Every engagement starts free. Keep your system, no contracts.
             </p>
           </div>
         </Modal>

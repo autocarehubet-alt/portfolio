@@ -9,7 +9,7 @@ export default function NotFound() {
         Page not found
       </h1>
       <p className="mt-3 text-sm text-text-secondary">
-        This page doesn&apos;t exist — but the money you&apos;re losing does.
+        This page doesn&apos;t exist. But the money you&apos;re losing does.
       </p>
       <Link
         href="/"

@@ -62,6 +62,12 @@ function ModalCta({ cta }: { cta: { label: string; href: string; note?: string }
 export default function FilesCard() {
   const [openSlug, setOpenSlug] = useState<string | null>(null);
   const openProduct = productFiles.find((p) => p.slug === openSlug);
+  // Wide shots read fine at full modal width; portrait phone shots would be
+  // taller than the viewport, so they tile in a grid instead.
+  const landscapeImages =
+    openProduct?.images?.filter((img) => img.width >= img.height) ?? [];
+  const portraitImages =
+    openProduct?.images?.filter((img) => img.height > img.width) ?? [];
 
   return (
     <div className="h-[340px] overflow-hidden rounded-xl border border-border-secondary bg-bg-primary p-3 md:h-[250px]">
@@ -156,7 +162,7 @@ export default function FilesCard() {
           ))}
           {openProduct.images && (
             <div className="mt-6 space-y-5">
-              {openProduct.images.map((img) => (
+              {landscapeImages.map((img) => (
                 <figure key={img.src}>
                   <Image
                     src={img.src}
@@ -172,6 +178,26 @@ export default function FilesCard() {
                   )}
                 </figure>
               ))}
+              {portraitImages.length > 0 && (
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+                  {portraitImages.map((img) => (
+                    <figure key={img.src}>
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={img.width}
+                        height={img.height}
+                        className="w-full rounded-lg border border-border-secondary"
+                      />
+                      {img.caption && (
+                        <figcaption className="mt-1.5 text-xs text-text-tertiary">
+                          {img.caption}
+                        </figcaption>
+                      )}
+                    </figure>
+                  ))}
+                </div>
+              )}
             </div>
           )}
           <p className="mt-6 text-sm font-semibold text-text-primary">What you get</p>

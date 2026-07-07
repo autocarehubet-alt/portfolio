@@ -14,7 +14,7 @@ export const codeLines: CodeLine[] = [
   [],
   [cm("// What we believe")],
   [kw("const"), pl(" "), id("belief"), pl(" = \"demand isn't")],
-  [pl("  the problem — follow-through is\"")],
+  [pl("  the problem; follow-through is\"")],
   [],
   [cm("// Our answer")],
   [kw("const"), pl(" "), id("aminra"), pl(" = "), kw("new"), pl(" Company({")],
